@@ -1,0 +1,23 @@
+
+curl -o ~/.bashrc https://raw.githubusercontent.com/linuxacademy/content-python3-sysadmin/master/helpers/bashrc
+curl -o ~/.vimrc https://raw.githubusercontent.com/linuxacademy/content-python3-sysadmin/master/helpers/vimrc
+
+git config --global user.name "ena"
+git config --global user.email "ena@gmail.com"
+git config --list
+
+mkdir sample
+cd sample/
+git init
+git status
+git add .
+git status 
+git commit -m "first commit"
+sample[master] $
+
+apt install -y wget build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev xz-utils tk-dev libncurses5-dev libncursesw5-dev
+
+root@debian:# cd /usr/src/
+https://www.python.org/downloads/release/python-3106/
+root@debian:/usr/src/# wget https://www.python.org/ftp/python/3.10.6/Python-3.10.6.tgz
+root@debian:/usr/src/Python-3.10.6# ./configure --enable-optimizations
